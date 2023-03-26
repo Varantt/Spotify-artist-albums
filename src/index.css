@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-search{
+    width:40%;
+}
+
+.gray{
+    color: #979595;
+} 
+    
+
+@media(max-width:768px){
+    .input-search{
+        width: 310px;
+    }
+}
+
+.bg-lighterGray{
+    background : rgb(235, 232, 232);
+}
