@@ -2,8 +2,6 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { useGlobalContext } from "../context/context";
-import ArtistItems from "../components/ArtistItems";
-import useFetch from "../hooks/useFetch";
 
 export default function SearchForm() {
   const { handleSearch, onSearchSubmit } = useGlobalContext();

@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import { useGlobalContext } from "../context/context";
+import React from "react";
 import SpotifyButton from "../Layout/SpotifyButton";
 
 export default function Login() {

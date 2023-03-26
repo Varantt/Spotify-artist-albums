@@ -14,7 +14,6 @@ function App() {
         <Route exact path="/" element={<Login />}></Route>
         <Route path="/artist_search" element={<ArtistSearch />}></Route>
         <Route path='/artist_search/:id/albums' element = {<Artist/>}/>
-        {/* <Route path = "/artist_search/:artistId" element = {<Artist/>}></Route> */}
       </Routes>
     </Router>
   );

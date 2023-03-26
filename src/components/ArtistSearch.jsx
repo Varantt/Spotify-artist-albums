@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { useGlobalContext } from "../context/context";
 import ArtistItems from "./ArtistItems";
 import SearchForm from "../Layout/SearchForm";
 //http://127.0.0.1:5173/artist_search#access_token=BQBuIYFn8DAfc78AtwzDig-1t95eJhad1ty1YSnSAwCVVd3bH9GC1me3OSuwuHJQiMCakJdU6VIANrGSOhfOeHh4QukzDfiUEz9BAYInJp0ZouexiBbDSXdiGtTRiFoHcqo16YO-EsBSDAgTydZeQrcetA2erIu0ypb_LXm-ta0bLhZ_AKRwP4vpsKP2S9fZFbElnrMgM-0KQfkLBE5z&token_type=Bearer&expires_in=3600

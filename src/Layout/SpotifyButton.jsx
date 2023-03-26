@@ -3,7 +3,7 @@ import spotifyLogo from "../assets/spotify.png";
 import { useGlobalContext } from "../context/context";
 
 export default function SpotifyButton() {
-  const { isLoggedIn, handleLogin } = useGlobalContext();
+  const { handleLogin } = useGlobalContext();
 
   return (
     <div className="flex flex-1 justify-center items-center ">

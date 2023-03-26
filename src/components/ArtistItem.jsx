@@ -1,8 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { useGlobalContext } from "../context/context";
 import { Link } from "react-router-dom";
+import StarRating from "../Layout/StarRating";
 import defaultImg from "../assets/default.jpg";
 
 export default function ArtistItem({
@@ -13,7 +11,6 @@ export default function ArtistItem({
   popularity,
 }) {
 
-  const { handleRating } = useGlobalContext();
 
   const image = images[1] && images[1].url;
   return (
@@ -29,16 +26,9 @@ export default function ArtistItem({
         </p>
         <p className="text-xs text-lightGrey ml-2">{`${followers.total.toLocaleString()} followers`}</p>
         <span className="flex ml-2 mt-9 ">
-          {[1, 2, 3, 4, 5].map((value) => {
-            let rating = handleRating(popularity);
-            return (
-              <FontAwesomeIcon
-                key={value}
-                icon={faStar}
-                color={value <= rating ? "gold" : "lightGray"}
-              />
-            );
-          })}
+          {/* start */}
+          <StarRating popularity = {popularity}/>
+          {/* {} */}
         </span>
       </div>
     </div>
