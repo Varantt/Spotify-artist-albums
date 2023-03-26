@@ -10,7 +10,6 @@ export const ProviderContext = ({ children }) => {
 
   const url = "https://accounts.spotify.com/authorize";
   const CLIENT_ID = "55dbb019184640c2a7077409d661a92b";
-  // const CLIENT_SECRET = "bd312afd35744bdca5bd20c78fbf279f";
   const REDIRECT_URI = "http://127.0.0.1:5173/artist_search";
 
   let searchUrl = `https://api.spotify.com/v1/search?q=${searchValue}&type=artist`;
