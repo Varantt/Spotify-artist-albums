@@ -8,7 +8,7 @@ export default function SpotifyButton() {
   return (
     <div className="flex flex-1 justify-center items-center ">
       <button
-        className="flex justify-center items-center gap-4 bg-white w-96 border border-lightGrey text-2xl rounded-xl text-darkGrey "
+        className="flex justify-center items-center md:gap-4 bg-white md:w-96 border border-lightGrey text-2xl rounded-xl text-darkGrey "
         onClick={handleLogin}
       >
         <span className=" flex-1 ml-16 text-center">Login</span>
